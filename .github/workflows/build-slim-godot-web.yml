@@ -16,7 +16,7 @@ on:
         description: "size (-Os) or size_extra (-Oz, smallest)"
         type: choice
         options: [size, size_extra]
-        default: size
+        default: size_extra
       keep_mbedtls:
         description: "Keep mbedTLS (true if you did NOT apply patches/0001 to the game)"
         type: boolean
